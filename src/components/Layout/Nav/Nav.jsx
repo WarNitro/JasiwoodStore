@@ -6,11 +6,11 @@ function Nav() {
   return (
     <nav className={styles.nav}>
         <ul> 
-            <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/productos">Productos</Link></li>
-            <li><Link to="/contacto">Contacto</Link></li>
-            <li><Link to="/carrito">Carrito</Link></li>
-            <li><Link to="/admin">Admin</Link></li>
+            <li><Link to="/jasiwoodstore/">Inicio</Link></li>
+            <li><Link to="/jasiwoodstore/productos">Productos</Link></li>
+            <li><Link to="/jasiwoodstore/contacto">Contacto</Link></li>
+            <li><Link to="/jasiwoodstore/carrito">Carrito</Link></li>
+            <li><Link to="/jasiwoodstore/admin">Admin</Link></li>
         </ul>
     </nav>
   )

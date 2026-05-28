@@ -74,7 +74,7 @@ function ProductoTarjeta() {
     if (parseInt(id)) {
 
         useEffect(() => {
-            fetch('/data/productos.json')
+            fetch('/jasiwoodstore/data/productos.json')
                 .then(response => response.json())
                 .then(data => {
                     const productoEncontrado = data.find(p => p.id === parseInt(id));

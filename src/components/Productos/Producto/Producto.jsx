@@ -9,7 +9,7 @@ function Producto({ admin, id, nombre, imagen, precio, stock }) {
                 <h3>{ nombre }</h3>
                 <img src={ imagen } alt={ nombre } width="100" height="100" />
                 <p>Precio: ${ precio }</p>
-                <Link to={ `/admin/producto-tarjeta/${ id }` }>Editar</Link>
+                <Link to={ `/jasiwoodstore/admin/producto-tarjeta/${ id }` }>Editar</Link>
             </div>
         )
     }
@@ -20,7 +20,7 @@ function Producto({ admin, id, nombre, imagen, precio, stock }) {
                 <img src={ imagen } alt={ nombre } width="100" height="100" />
                 <p>Precio: ${ precio }</p>
                 <p>Stock: { stock }</p>
-                <Link to={ `/producto-detalle/${ id }` }>Detalles</Link>
+                <Link to={ `/jasiwoodstore/producto-detalle/${ id }` }>Detalles</Link>
             </div>
         )
     }
