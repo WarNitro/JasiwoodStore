@@ -39,8 +39,11 @@ function Productos() {
 
   return (
     <>
-        <h2>Administrar producto:</h2>
-        <ProductoLista admin={ true } productos={ productos } />
+        <h2 className="text-center mb-3">Administrar productos</h2>
+
+        <div className="container mt-3">
+          <ProductoLista admin={ true } productos={ productos } />
+        </div>
     </>
   )
 }

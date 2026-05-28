@@ -40,7 +40,7 @@ function Productos() {
 
   return (
     <>
-        <h2 className="text-center mt-4 mb-3">Productos</h2>
+        <h2 className="text-center mb-3">Productos</h2>
 
         <div className="container mt-3">
           <ProductoLista productos={ productos } />

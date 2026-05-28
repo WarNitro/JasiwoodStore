@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Nav() {
 
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary m-0">
             <div className="container-fluid">
                 { /*<Link to="/jasiwoodstore/" className="navbar-brand">Pasteles Jasiwood</Link>*/ }
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

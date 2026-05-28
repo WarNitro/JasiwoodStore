@@ -9,7 +9,7 @@ function Layout() {
     <>
         <Header />
         <Nav />
-        <main>
+        <main className="p-4" style={{ backgroundImage: "url(/jasiwoodstore/img/background.jpg)", backgroundSize: 'cover', backgroundPosition: "center", minHeight: '100vh'  }}>
             <Outlet />
         </main>
         <Footer />
