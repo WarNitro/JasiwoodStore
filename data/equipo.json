@@ -1,0 +1,6 @@
+[
+    { "nombre": "Silvia", "puesto": "Pastelera", "imagen": "/jasiwoodstore/img/silvia.png" },
+    { "nombre": "Luis", "puesto": "Gerente", "imagen": "/jasiwoodstore/img/luis.png" },
+    { "nombre": "Matias", "puesto": "Marketing", "imagen": "/jasiwoodstore/img/matias.png" },
+    { "nombre": "Sabrina", "puesto": "Diseñadora", "imagen": "/jasiwoodstore/img/sabrina.png" }
+]
